@@ -1,10 +1,10 @@
 import styled from 'styled-components';
-import { ResponsiveHeader } from './components/ResponsiveHeader';
+import { Header } from './components/Header';
 
 const App = () => {
   return (
     <PageStyle>
-      <ResponsiveHeader />
+      <Header />
     </PageStyle>
   );
 };
