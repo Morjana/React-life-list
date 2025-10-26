@@ -1,0 +1,21 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "outDir": "./dist",
+        "allowJs": true,
+        "checkJs": true,
+        "target": "es5",
+        "allowUnreachableCode": false,
+        "noImplicitReturns": true,
+        "noImplicitAny": true,
+        "jsx": "react-jsx",
+        "types": []
+    },
+  "include": [
+    "src/*"
+  ],
+    "exclude": [
+    "node_modules/*",
+    "./dist/**/*"
+  ]
+}

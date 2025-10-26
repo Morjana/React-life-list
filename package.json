@@ -5,15 +5,26 @@
   "type": "module",
   "scripts": {
     "build": "rsbuild build",
-    "dev": "rsbuild dev --open",
-    "preview": "rsbuild preview"
+    "start": "rsbuild dev --open",
+    "preview": "rsbuild preview",
+    "tsc": "tsc --skipLibCheck"
   },
   "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@mui/icons-material": "^7.3.4",
+    "@mui/material": "^7.3.4",
+    "@types/react-dom": "^19.2.2",
+    "@types/typescript": "^2.0.0",
     "react": "^19.2.0",
-    "react-dom": "^19.2.0"
+    "react-dom": "^19.2.0",
+    "styled-components": "^6.1.19",
+    "typescript": "^5.9.3"
   },
   "devDependencies": {
     "@rsbuild/core": "^1.5.14",
-    "@rsbuild/plugin-react": "^1.4.1"
+    "@rsbuild/plugin-react": "^1.4.1",
+    "@types/node": "^24.9.1",
+    "@types/react": "^19.2.2"
   }
 }
